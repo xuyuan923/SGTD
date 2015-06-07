@@ -1,0 +1,16 @@
+{
+  "manifest_version": 1,
+
+  "name": "SGTD",
+  "description": "This extension helps you work more efficiently",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.jpg",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/"
+  ]
+}
